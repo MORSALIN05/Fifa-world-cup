@@ -1,0 +1,411 @@
+/* google font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* common styles body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* main styles */
+main {
+    margin: 25px 70px 25px 70px;
+}
+
+/* header styles */
+.header {
+    display: flex;
+    padding: 30px;
+    background-color: rgb(22, 21, 21);
+    margin: 30px;
+    color: white;
+    justify-content: center;
+
+}
+
+.header-sect-1 {
+    width: 50%;
+    transition: background-color 2s ease-out 100ms
+}
+
+.header-sect-1:hover {
+    background-color: aquamarine;
+}
+
+.header-sect-2 img {
+    width: 100%;
+    margin-bottom: -7px;
+}
+
+/* link button style */
+
+.link-button {
+    padding: 5px 30px;
+    background-color: rgb(206, 39, 39);
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.fa-angle-right .filled {
+    color: rgb(71, 63, 63);
+    font-size: 20px;
+
+}
+
+/* transfer-container for player transfer  */
+
+.transfer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+
+}
+
+.single-player-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    /* padding: 20px; */
+    width: 70%;
+    align-items: center;
+}
+
+.player {
+    margin-bottom: 20px;
+    border-radius: 14px;
+    border: 1px solid rgb(216, 207, 207);
+}
+
+.players img {
+    width: 100%;
+}
+
+/* 3 button link style*/
+
+.button-shape {
+    text-decoration: none;
+    text-align: center;
+
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.shape1 {
+    text-decoration: none;
+    color: black;
+    /* background-color: white; */
+}
+
+.shape2 {
+    text-decoration: none;
+    color: black;
+}
+
+#shape3 {
+    text-decoration: none;
+    color: black;
+}
+
+.half-width-Tsection-player {
+    width: 70%;
+
+}
+
+.button-block {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* width: 200px; */
+    height: 180px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(20, 19, 19);
+    /* border-color: black; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button block for upcomming page */
+
+.button-block-upcomming {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* width: 210px; */
+    height: 180px;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(20, 19, 19);
+    /* border-color: black; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styel for transfer-container-upcomming */
+.transfer-container-upcomming {
+    display: flex;
+    gap: 2rem;
+    /* margin: 80px; */
+}
+
+.transfer-shape {
+    border: 1px solid;
+    color: black;
+    /* margin: 10px 10px 10px 10px; */
+}
+
+/* Trns-Live-padding */
+.Trns-Live-padding {
+    /* text-align: center; */
+    justify-content: center;
+    justify-items: center;
+
+}
+
+/* icon area */
+.icon-area {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.icon-grid {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.transfer-block-pad {
+    padding: 20px;
+}
+
+/* footer section */
+footer {
+    background-color: black;
+    color: white;
+    /* height: 250px; */
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    background-color: rgb(117, 102, 102);
+    height: 1px;
+    margin: 5px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+/* upcomming page section */
+.grid-flag-container {
+    display: grid;
+    width: 77%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-item {
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grid-flag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.time-info {
+    text-align: center;
+}
+
+.team-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text-alignP {
+    text-align: center;
+}
+
+/* Media query */
+
+/* Media query for mobile device */
+@media only screen and (max-width: 688px) {
+    .header {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .header-sect-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-sect-1-description {
+        text-align: center;
+    }
+
+    .header-sect-2 img {
+        width: 100%;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .transfer-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .transfer-container-upcomming {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .single-player-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 15px;
+        /* padding: 20px; */
+        align-items: center;
+    }
+
+    .grid-flag-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 15px;
+        /* padding: 20px; */
+        align-items: center;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-columns: repeat(1, 1fr); */
+        align-items: center;
+        justify-content: center;
+        /* background-color: black; */
+    }
+
+    .social-mobile-view {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Media query for tablet device */
+
+
+@media (min-width:689px) and (max-width:992px) {
+    .transfer-container {
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 15px;
+        justify-content: center;
+    }
+
+    .transfer-container-upcomming {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-flag-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        /* padding: 20px; */
+        align-items: center;
+    }
+
+    /* edit button shape */
+    .button-shape {
+        text-decoration: none;
+        text-align: center;
+        margin: 2px;
+        background-color: white;
+
+        border-radius: 5px;
+        font-weight: 700;
+        padding: 5px 15px;
+    }
+
+    #shape3 {
+        text-decoration: none;
+
+    }
+
+    .blog-button-color {
+        background-color: blueviolet;
+    }
+
+    .button-block {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border-color: black; */
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .single-player-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        /* padding: 20px; */
+        align-items: center;
+
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-columns: repeat(1, 1fr); */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* background-color: black; */
+    }
+}
