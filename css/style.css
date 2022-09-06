@@ -22,7 +22,7 @@ main {
     background-color: rgb(22, 21, 21);
     margin: 30px;
     color: white;
-    padding: 10px;
+    padding-bottom: 10px;
     justify-content: center;
 
 }
@@ -85,6 +85,20 @@ main {
 
 .players img {
     width: 100%;
+}
+
+/* view button */
+
+.view-button1 {
+
+    padding: 8px 20px;
+    background-color: rgb(206, 39, 39);
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 40%;
+    /* display: none; */
 }
 
 /* 3 button link style*/
@@ -335,6 +349,10 @@ footer {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .view-button1 {
+        display: none;
+    }
 }
 
 /* Media query for tablet device */
@@ -401,6 +419,19 @@ footer {
 
     }
 
+    /* Tablet view button */
+
+    .view-button1 {
+        padding: 8px 20px;
+        background-color: rgb(206, 39, 39);
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        border-radius: 5px;
+        margin-left: 40%;
+
+    }
+
     .footer-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -409,5 +440,12 @@ footer {
         justify-content: center;
         text-align: center;
         /* background-color: black; */
+    }
+}
+
+/* Tablet device */
+@media only screen and (min-width:993px) {
+    .view-button1 {
+        display: none;
     }
 }
