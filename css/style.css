@@ -13,16 +13,16 @@ h1 {
 
 /* main styles */
 main {
-    margin: 25px 70px 25px 70px;
+    margin: 25px 30px 25px 30px;
 }
 
 /* header styles */
 .header {
     display: flex;
-    padding: 30px;
     background-color: rgb(22, 21, 21);
     margin: 30px;
     color: white;
+    padding: 10px;
     justify-content: center;
 
 }
@@ -63,6 +63,8 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+    /* margin: 30px; */
+    padding: 30px;
 
 }
 
@@ -152,7 +154,7 @@ main {
 .transfer-container-upcomming {
     display: flex;
     gap: 2rem;
-    /* margin: 80px; */
+    margin: 30px;
 }
 
 .transfer-shape {
